@@ -21,8 +21,7 @@ export class Imdb
     {
         let dato =fs.readFileSync(nombreFichero ,"utf8")
         let obj=JSON.parse(dato)
-        let objDato = Object.assign(new Imdb(),obj)
-        return objDato
+        return obj
     }
 
 

@@ -40,9 +40,9 @@ export class Movie
                 releaseYear  -  ${this.releaseYear},
                 nacionality  -  ${this.nacionality},
                 genre  -  ${this.genre},
-                actor  -  ${profesional1.valorAtribu()},
-                director  -  ${profesional2.valorAtribu()}
-                writer  -  ${profesional3.valorAtribu()},
+                actor  -  ${this.actors},
+                director  -  ${this.director}
+                writer  -  ${this.writer},
                 language  -  ${this.language},
                 plataforma  -  ${this.plataforma},
                 isMCU  -  ${this.isMCU},
